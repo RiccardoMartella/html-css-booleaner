@@ -1,7 +1,15 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    
+}
+
+main, footer {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+table {
+    width: 100%;
 }
 
 /* logo */
@@ -18,7 +26,6 @@
     background-size: cover;
     width: 200px;
     height: 50px;
-    
 }
 
 /* titolo */
@@ -37,12 +44,15 @@
     margin-top: 30px;
 }
 
-/* parte centrale testo*/
-.contenitoreparagrafo{
+/* parte centrale testo + tabella*/
+.contenitoreparagrafo, ul, table, footer{
     margin-top: 20px;
 }
 
-/* lista */
-ul{
-    margin-top: 20px;
+.sfondotabella{
+    background-color: aqua;
+}
+
+th{
+    background-color:rgb(32, 149, 227);
 }
