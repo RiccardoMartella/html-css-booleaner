@@ -3,15 +3,6 @@
     margin: 0;
 }
 
-main, footer {
-    margin: 0 auto;
-    max-width: 1080px;
-}
-
-table {
-    width: 100%;
-}
-
 /* logo */
 .contenitorelogo{
     background-color:rgb(32, 149, 227);
@@ -21,11 +12,8 @@ table {
     padding: 40px 0 10px 5px;
 }
 
-.logo{
-    background-image:url(../img/logo.svg);
-    background-size: cover;
+.logo img {
     width: 200px;
-    height: 50px;
 }
 
 /* titolo */
@@ -45,7 +33,7 @@ table {
 }
 
 /* parte centrale testo + tabella*/
-.contenitoreparagrafo, ul, table, footer{
+.contenitoreparagrafo, ul, table, footer {
     margin-top: 20px;
 }
 

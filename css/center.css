@@ -1,0 +1,8 @@
+main, footer, .logo {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+table {
+    width: 100%;
+}
