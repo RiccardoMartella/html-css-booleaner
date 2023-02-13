@@ -1,8 +1,48 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    
 }
 
+/* logo */
 .contenitorelogo{
-    background-image: url(../img/._graph.jpg);
+    background-color:rgb(32, 149, 227);
+    background-image: url(../img/pattern.png);
+    background-size: 20%;
+    height: 100px;
+    padding: 40px 0 10px 5px;
+}
+
+.logo{
+    background-image:url(../img/logo.svg);
+    background-size: cover;
+    width: 200px;
+    height: 50px;
+    
+}
+
+/* titolo */
+.contenitoretitolo{
+    margin-top: 15px;
+
+}
+
+/* <!-- scrittore + data --> */
+.scrittore{
+    color: grey;
+}
+
+/* immagini tim */
+.tim{
+    margin-top: 30px;
+}
+
+/* parte centrale testo*/
+.contenitoreparagrafo{
+    margin-top: 20px;
+}
+
+/* lista */
+ul{
+    margin-top: 20px;
 }
